@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Cypress output
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+coverage/
+
+# npm debug files
+npm-debug.log*
+
+# Mac system files
+Icon?
+
+# Windows system files
+Desktop.ini
+
+# Others
+package-lock.json
+yarn.lock
+
+# Ignore all by default, then allow source
+# Uncomment below if you want to ignore everything except source files
+# /*
+# !/cypress/
+# !/package.json
+# !/cypress.config.js
